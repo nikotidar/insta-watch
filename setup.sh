@@ -29,6 +29,7 @@ else
 fi
 pip3 install selenium &&
 pip3 install explicit &&
+python3 mv_webdriver.py &&
 
 echo -e "\n${CL}====================="
 echo -e "${NC}        Done!"
