@@ -28,7 +28,7 @@ Automated tool to list the users who don't follow you back on Instagram.
 
 ## :question: How to use
 
-### Setting up for the first time
+### :baby: Setting up for the first time
 
 **1)** Check out your browser version and download the corresponding version of the supported webdrivers listed above.
 
@@ -42,11 +42,18 @@ cd insta-watch
 ```elm
 sudo ./setup.sh
 ```
-**2.2)** If you're in Windows or any other OS, with ```pip```, please install the following libs:
+**2.2)** If you're in Windows or any other OS:
+
+**2.2.1)** With ```pip```, please install the following libs:
 - **selenium**
 - **explicit**
 
-### Running
+**2.2.2)** Run the ```mv_webdriver.py``` to automatically move the downloaded webdriver file to the project's root folder.
+```elm
+python3 mv_webdriver.py
+```
+
+### :running: Running
 ```elm
 -- Linux:
 python3 insta_watch.py
