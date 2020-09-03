@@ -71,6 +71,6 @@ Thanks for using InstaWatch!, if you have experienced any runtime issues, please
 
 ## :loudspeaker: Additional Info
 
-> If you're using 2FA (two-factor authentication) you will need to manually type the auth code (rly?! xD), for that I've set a 15s sleep, after this time, the program will go on its execution. 
+> If you're using 2FA (two-factor authentication) you will need to manually enter the auth code (rly?! xD), for that I've set a 15s sleep, after this time, the program will go on its execution. 
 
 > **Disclaimer:** I am by no means responsible for any usage of this tool, and I'm also not responsible if your account get banned due to extensive use of this tool. Use on your own behalf.
