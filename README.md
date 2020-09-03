@@ -48,9 +48,13 @@ sudo ./setup.sh
 - **selenium**
 - **explicit**
 
-**2.2.2)** Run the ```mv_webdriver.py``` to automatically move the downloaded webdriver file to the project's root folder.
+**2.2.2)** Run the ```mv_wdExec.py``` to automatically move the downloaded webdriver file to the project's root folder.
 ```elm
-python3 mv_webdriver.py
+-- Linux:
+python3 mv_wdExec.py
+
+-- Windows:
+py mv_wdExec.py
 ```
 
 ### :running: Running
