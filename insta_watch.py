@@ -17,7 +17,7 @@ def clearDisplay():
 
 class GetWebdriver:
     def __init__(self):
-        self.supportedWebdrivers = ['msedgedriver', 'geckodriver', 'chromedriver']
+        self.supportedWebdrivers = ['msedgedriver.exe', 'geckodriver', 'chromedriver']
         self.webdriverExists = ''
         self.webdriverName = ''
 
