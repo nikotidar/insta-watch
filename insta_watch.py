@@ -17,7 +17,9 @@ def clearDisplay():
 
 class GetWebdriver:
     def __init__(self):
-        self.supportedWebdrivers = ['msedgedriver.exe', 'geckodriver', 'chromedriver']
+        self.supportedWebdrivers = [
+            'msedgedriver.exe', 'geckodriver', 'geckodriver.exe', 'chromedriver', 'chromedriver.exe'
+        ]
         self.webdriverExists = ''
         self.webdriverName = ''
 
@@ -115,8 +117,7 @@ def watchLists(driver, instaUsr, totalFollowing, totalFollowers):
                 followingList.append(usr)
                 if i >= totalFollowing:
                     break
-        except Exception as e:
-            #print(e)
+        except:
             pass
         if k < totalFollowing:
             print(f'> {totalFollowing-k} user(s) not found.\n> {k} username(s) appended.\n')
@@ -131,8 +132,7 @@ def watchLists(driver, instaUsr, totalFollowing, totalFollowers):
                 followersList.append(usr)
                 if i >= totalFollowers:
                     break
-        except Exception as e:
-            #print(e)
+        except:
             pass
         if k < totalFollowers:
             print(f'> {totalFollowers-k} user(s) not found.\n> {k} username(s) appended.\n')
